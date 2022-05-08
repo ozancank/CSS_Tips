@@ -1,0 +1,12 @@
+.item{
+  background-color: black;
+  width: 180px;
+  height: 100px;
+}
+
+.flex{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  gap: 10px;
+}

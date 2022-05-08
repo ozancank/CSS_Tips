@@ -1,0 +1,14 @@
+h1 {
+  background: blue url("image.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 20px;
+  font-size: 120px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 45px;
+  }
+}

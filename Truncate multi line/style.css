@@ -1,0 +1,24 @@
+body {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tile {
+  background: linear-gradient(to right, #2B32B2, #1488CC);
+  padding: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 300px;
+  color: #fff;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Change this line if you want. In this case it trimmed the text to 3 lines. */
+  overflow: hidden;
+}
+
+.line-clamp--four {
+  -webkit-line-clamp: 4; /* Trimmed the second tile to four lines. */
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.custom-highlighting::selection {
+  background-color: #8e44ad;
+  color: #fff;
+}
